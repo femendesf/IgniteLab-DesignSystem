@@ -23,7 +23,8 @@ export function Text({size ='md', children, asChild, className} : TextProps) {
                     'text-xs': size === 'sm',
                     'text-sm': size === 'md',
                     'text-lg': size === 'lg',
-                }
+                },
+                className
             )
         }
         >
