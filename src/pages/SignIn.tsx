@@ -42,7 +42,9 @@ export function SignIn() {
         </header>
 
         <form onSubmit={handleSignIn} className='flex flex-col w-full gap-4 max-w-sm mt-10'>
+
           {isUserSignedIn && <Text>Login realizado!</Text>}
+
           <label htmlFor="email" className='flex flex-col gap-3'>
 
             <Text size='lg' className='font-semibold'>Endereço de e-mail</Text>
@@ -53,7 +55,7 @@ export function SignIn() {
                 <Envelope/>
               </TextInput.Icon>
 
-              <TextInput.Input id='email' placeholder='Digite seu email'/>
+              <TextInput.Input type='email' id='email' placeholder='Digite seu email'/>
 
             </TextInput.Root>
 
@@ -69,7 +71,7 @@ export function SignIn() {
                 <Lock/>
               </TextInput.Icon>
 
-              <TextInput.Input id='password' placeholder='* * * * * * *'/>
+              <TextInput.Input  type="password" id='password' placeholder='* * * * * * *'/>
 
             </TextInput.Root>
 
