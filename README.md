@@ -18,10 +18,12 @@ Para a documentação do projeto, está sendo usado o [Storybook](https://storyb
 
 ----
 
-## Instalação
-
-Instale o projeto com npm:
+## Instal project:
 
 `npm install`
+
+## Start project:
+
+`npm run dev`
 
     
