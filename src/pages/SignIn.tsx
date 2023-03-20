@@ -25,7 +25,7 @@ export function SignIn() {
   }
 
     return(
-      <div className='w-screen h-screen bg-gray-900 flex flex-col items-center justify-center text-gray-100 '>
+      <div className='w-screen h-screen bg-gray-900 flex flex-col items-center justify-center text-gray-100 mt-4'>
 
         <header className='flex flex-col items-center'>
           <Logo/>
@@ -85,7 +85,7 @@ export function SignIn() {
           
           <Button type='submit' className='mt-4'> Entrar na plataforma</Button>
 
-          <footer className='flex flex-col items-center gap-4 mt-8'>
+          <footer className='flex flex-col items-center gap-4 mt-8 mb-2'>
 
             <Text asChild size='sm'>
               <a href="" className='text-gray-400 underline hover:text-gray-200'>Esqueceu sua senha?</a>

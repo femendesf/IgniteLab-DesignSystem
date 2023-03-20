@@ -16,7 +16,7 @@ export function CheckBox(props :CheckBoxProps) {
         >
             <CheckBoxPrimitive.Indicator asChild>
 
-                <Check weight='bold' className='h-5 w-5 text-cyan-500'/>
+                <Check weight='bold' className='h-5 w-5 bg-blue-400'/>
 
             </CheckBoxPrimitive.Indicator>
 
